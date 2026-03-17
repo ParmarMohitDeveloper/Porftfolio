@@ -48,7 +48,7 @@ const GitHubShowcase = () => {
             <p className="text-xs text-muted-foreground mb-4">{repo.description}</p>
             <div className="flex items-center gap-4 text-xs text-muted-foreground">
               <span className="flex items-center gap-1">
-                <span className="w-2.5 h-2.5 rounded-full bg-yellow-400" />
+                <span className="w-2.5 h-2.5 rounded-full bg-primary" />
                 {repo.language}
               </span>
               <span className="flex items-center gap-1"><Star size={12} /> {repo.stars}</span>
