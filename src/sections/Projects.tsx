@@ -7,32 +7,24 @@ const projects = [
     subtitle: "Real-Time Messaging App",
     description: "A real-time messaging application with live chat using WebSockets. Includes authentication, profile customization, and message management.",
     tech: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "JWT"],
-    github: "https://github.com/ParmarMohitDeveloper",
-    demo: "#",
+    github: "https://github.com/ParmarMohitDeveloper/Volt-Messaging-Webapp",
+    demo: "https://voltmessage.netlify.app/",
   },
   {
     title: "Google OAuth Auth",
     subtitle: "MERN Authentication System",
     description: "Secure login system using Google OAuth 2.0 integrated with JWT and protected routes for seamless user authentication.",
     tech: ["React", "Node.js", "Express", "MongoDB", "OAuth 2.0", "JWT"],
-    github: "https://github.com/ParmarMohitDeveloper",
-    demo: "#",
+    github: "https://github.com/ParmarMohitDeveloper/Goggle-Login-MERN-WebApp",
+    demo: "",
   },
   {
     title: "Live Tracker",
     subtitle: "Real-Time Location Tracking",
     description: "Real-time location tracking system using geolocation APIs and socket communication for live position updates.",
-    tech: ["React", "Node.js", "Socket.io", "Geolocation API", "MongoDB"],
-    github: "https://github.com/ParmarMohitDeveloper",
-    demo: "#",
-  },
-  {
-    title: "E-Commerce Platform",
-    subtitle: "Full Stack Store",
-    description: "Full stack e-commerce system with product management APIs, cart functionality, and payment integration.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/ParmarMohitDeveloper",
-    demo: "#",
+    tech: ["Node.js", "Express", "Socket.io", "Leaflet", "Geolocation API"],
+    github: "https://github.com/ParmarMohitDeveloper/Live-Tracking-App",
+    demo: "https://live-tracking-app-backend.onrender.com/",
   },
 ];
 
@@ -83,12 +75,16 @@ const Projects = () => {
               </div>
 
               <div className="flex gap-4">
-                <a
-                  href={project.demo}
-                  className="flex items-center gap-2 text-xs font-medium text-muted-foreground hover:text-primary transition-colors"
-                >
-                  <ExternalLink size={14} /> Live Demo
-                </a>
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-xs font-medium text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    <ExternalLink size={14} /> Live Demo
+                  </a>
+                )}
                 <a
                   href={project.github}
                   target="_blank"

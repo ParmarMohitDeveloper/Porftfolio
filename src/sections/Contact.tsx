@@ -110,8 +110,8 @@ const Contact = () => {
               <a href="https://www.linkedin.com/in/mohit-parmar-0b7514271" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin size={18} /> linkedin.com/in/mohit-parmar
               </a>
-              <a href="mailto:mohitparmar.dev@gmail.com" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors">
-                <Mail size={18} /> mohitparmar.dev@gmail.com
+              <a href="mailto:mohitparmardeveloper@gmail.com" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Mail size={18} /> mohitparmardeveloper@gmail.com
               </a>
             </div>
           </div>

@@ -68,9 +68,9 @@ const Hero = () => {
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter mb-4 leading-[0.95]">
           Hi, I'm{" "}
-          <span className="text-gradient">Mohit</span>
+          <span className="text-gradient">Parmar</span>
           <br />
-          <span className="text-muted-foreground">Parmar.</span>
+          <span className="text-muted-foreground">Mohit.</span>
         </h1>
 
         <div className="h-10 md:h-12 mb-6 flex items-center">
@@ -122,7 +122,7 @@ const Hero = () => {
         <a href="https://www.linkedin.com/in/mohit-parmar-0b7514271" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
           <Linkedin size={20} />
         </a>
-        <a href="mailto:mohitparmar.dev@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+        <a href="mailto:mohitparmardeveloper@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
           <Mail size={20} />
         </a>
         <div className="w-px h-24 bg-border" />

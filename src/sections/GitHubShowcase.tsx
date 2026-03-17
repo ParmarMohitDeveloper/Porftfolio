@@ -2,10 +2,9 @@ import { motion } from "framer-motion";
 import { Github, Star, GitFork, ExternalLink } from "lucide-react";
 
 const repos = [
-  { name: "Volt-Messaging", description: "Real-time messaging app with Socket.io", language: "JavaScript", stars: 0, forks: 0 },
-  { name: "Google-OAuth-MERN", description: "Google OAuth 2.0 authentication system", language: "JavaScript", stars: 0, forks: 0 },
-  { name: "Live-Tracker", description: "Real-time location tracking application", language: "JavaScript", stars: 0, forks: 0 },
-  { name: "E-Commerce-MERN", description: "Full-stack e-commerce platform", language: "JavaScript", stars: 0, forks: 0 },
+  { name: "Volt-Messaging-Webapp", description: "Real-time messaging app with Socket.io", language: "JavaScript", stars: 0, forks: 0 },
+  { name: "Goggle-Login-MERN-WebApp", description: "Google OAuth 2.0 authentication system", language: "JavaScript", stars: 0, forks: 0 },
+  { name: "Live-Tracking-App", description: "Real-time location tracking application", language: "JavaScript", stars: 0, forks: 0 },
 ];
 
 const GitHubShowcase = () => {
@@ -31,7 +30,7 @@ const GitHubShowcase = () => {
         {repos.map((repo, i) => (
           <motion.a
             key={repo.name}
-            href={`https://github.com/ParmarMohitDeveloper/${repo.name}`}
+            href={`https://github.com/ParmarMohitDeveloper/${repo.name.replace(/\s/g, "-")}`}
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}

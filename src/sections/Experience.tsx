@@ -3,18 +3,20 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    role: "MERN Stack Developer",
-    company: "Freelance / Personal Projects",
-    period: "2023 — Present",
-    description: "Building full-stack web applications using MongoDB, Express.js, React, and Node.js. Developed real-time messaging apps, authentication systems, and e-commerce platforms.",
-    highlights: ["Real-time WebSocket applications", "OAuth 2.0 & JWT authentication", "REST API architecture", "Responsive UI with TailwindCSS"],
+    role: "Web Developer",
+    company: "Maurya Infotech Services · Internship",
+    period: "Mar 2, 2026 — Present · Vadodara, Gujarat, India · Remote",
+    description:
+      "During this internship, I am focusing on developing scalable full-stack applications, RESTful APIs, and responsive user interfaces, while gaining hands-on experience with real-world development workflows.",
+    highlights: ["MERN stack development", "RESTful API development", "Responsive UI development", "Real-world team workflows"],
   },
   {
-    role: "Web Development Intern",
-    company: "Self-Directed Learning & Internships",
-    period: "2022 — 2023",
-    description: "Gained hands-on experience with frontend and backend technologies, building projects and contributing to team-based development workflows.",
-    highlights: ["React component architecture", "Node.js backend development", "MongoDB database design", "Git version control"],
+    role: "Web Developer",
+    company: "Bilvani · Freelance",
+    period: "Jan 2024 — Dec 2024 · Remote",
+    description:
+      "I have been involved in the development of a scalable backend and smooth integration for the frontend on an e-commerce website using MERN stack.",
+    highlights: ["MERN stack", "Backend architecture", "API integration", "Frontend-backend integration"],
   },
 ];
 
